@@ -37,11 +37,10 @@ def main():
         llm = init_llm_client()
         logger.info("LLM client initialized")
 
-        question = "Who are you?"
-        response = llm.invoke(question)
-
-        logger.info(f"Question: {question}")
-        logger.info(f"Answer: {response.content}")
+        # question = "Who are you?"
+        # response = llm.invoke(question)
+        #
+        # logger.info(f"Question: {question}")
 
         # streaming invoke
         print("===========================streaming invoke=======")
